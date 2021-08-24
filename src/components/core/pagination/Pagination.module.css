@@ -1,0 +1,56 @@
+.paginationWrapper {
+  display: flex;
+  align-items: center;
+  height: 2.3rem;
+}
+
+.paginationNumber {
+  margin: 0 0.2rem;
+  padding: 0 0.6rem;
+  background-color: var(--color-light-shade);
+  border-radius: 5px;
+  font-size: 0.7em;
+  display: flex;
+  height: 2em;
+  align-items: center;
+  cursor: pointer;
+}
+
+.numberWrapper {
+  display: flex;
+  white-space: nowrap;
+  max-width: 13rem;
+  overflow: scroll;
+}
+
+.numberWrapper::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.active {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  font-weight: 500;
+  box-shadow: 0 0 1px var(--color-primary-tint);
+}
+
+.prev {
+  width: 1.6rem;
+}
+
+.prev > svg {
+  font-size: 1em;
+}
+
+.next {
+  width: 1.6rem;
+  padding: 0 0.5rem;
+}
+
+.next > svg {
+  font-size: 1em;
+}
+
+/* .prev .next > .MuivgIcon-root {
+  font-size: 1em;
+} */

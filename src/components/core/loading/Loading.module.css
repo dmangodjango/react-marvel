@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shield {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 100%;
+
+  /*animation-name: div1-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;*/
+
+  /*animation:rotate 1s linear reverse infinite;
+    transform-origin:100%; */
+}
+
+.shield > img {
+  border-radius: inherit;
+  object-fit: cover;
+  height: inherit;
+  width: inherit;
+
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,25 @@
+.footerContainer {
+  width: 100%;
+  background-color: var(--color-dark);
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  color: var(--color-light);
+}
+
+.imgContainer {
+  width: 15rem;
+}
+
+.imgContainer > img {
+  width: inherit;
+}
+
+.textContainer {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.textContainer > a {
+  text-decoration-style: none;
+}
